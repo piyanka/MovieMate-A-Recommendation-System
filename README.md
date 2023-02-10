@@ -10,6 +10,6 @@ You will need to have Python 3 and the following libraries installed on your mac
 4. streamlit
 5. requests
 Run the movie recomendation system by running the following command:
- #### streamlit run app.py
- You will be prompted to enter your favorite movie.
+#### streamlit run app.py
+You will be prompted to enter your favorite movie.
 The system will generate a list of similar movies based on your input.
