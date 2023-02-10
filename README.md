@@ -9,6 +9,7 @@ You will need to have Python 3 and the following libraries installed on your mac
 3. sklearn
 4. streamlit
 5. requests
+
 Run the movie recomendation system by running the following command:
 #### streamlit run app.py
 You will be prompted to enter your favorite movie.
