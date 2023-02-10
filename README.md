@@ -3,6 +3,7 @@ This is a simple movie recommendation system that generates movie suggestions ba
 
 ### Getting started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
 You will need to have Python 3 and the following libraries installed on your machine:
 1. Pandas
 2. Numpy
