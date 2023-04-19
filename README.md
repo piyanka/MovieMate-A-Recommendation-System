@@ -2,7 +2,7 @@
 This is a simple movie recommendation system that generates movie suggestions based on user input.
 
 ### Getting started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Pull the project and these instructions will  help you running project on your local machine for development and testing purposes.
 
 You will need to have Python 3 and the following libraries installed on your machine:
 1. Pandas
