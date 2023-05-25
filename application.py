@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import joblib
 
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=2263e44adaef79b4d8934492766385dc&language=en-US".format(movie_id)
@@ -26,11 +27,15 @@ def recommend(movie):
 movies_list = pickle.load(open('movies.pkl','rb'))
 movie = movies_list['title'].values
 new_df = pd.DataFrame(movies_list)
-similarity = pickle.load(open('similarity.pkl','rb'))
-# url = 'https://drive.google.com/u/0/uc?id=1AUXYaoPNbVNbUNDU00FQUCgjMumfWRyb&export=download'
+# similarity = pickle.load(open('similarity.pkl','rb'))
+# url = 'https://drive.google.com/file/d/1QA_xcgNRBt60HBJSzeLOPR3zJMsXucyT/view?usp=sharing'
 # response = requests.get(url)
-# with open('similarity.pkl', 'wb') as f:
+# with open('similarity.joblib', 'wb') as f:
 #     f.write(response.content)
+similarity = joblib.load('similarity1.joblib')
+# with open("similarity.txt", 'rb') as f:
+#     similarity = f.readlines()
+
 
 st.title('Movie Recommender System')
 
