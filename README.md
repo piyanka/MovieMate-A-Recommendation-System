@@ -1,17 +1,13 @@
 # Movie-recommedation-system
-This is a simple movie recommendation system that generates movie suggestions based on user input.
+This project builds an interactive recommendation through which you can get movie suggestion based on your favorite movie input.
+Following are the features of the machine:
+1. Build on Streamlit library.
+2. Used data is of TMDB website's free API.
+3. The modules used are pickle, joblib, nltk and requests
 
-### Getting started
-Pull the project and these instructions will  help you running project on your local machine for development and testing purposes.
-
-You will need to have Python 3 and the following libraries installed on your machine:
-1. Pandas
-2. Numpy
-3. sklearn
-4. streamlit
-5. requests
-
-Run the movie recomendation system by running the following command:
-#### streamlit run app.py
+I welcome you to contribute in the repo and pull the repo for modifications.
+Use
+#### streamlit run app.py 
+to run the code:
 You will be prompted to enter your favorite movie.
 The system will generate a list of similar movies based on your input.
