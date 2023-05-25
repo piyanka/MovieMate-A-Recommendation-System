@@ -27,14 +27,7 @@ def recommend(movie):
 movies_list = pickle.load(open('movies.pkl','rb'))
 movie = movies_list['title'].values
 new_df = pd.DataFrame(movies_list)
-# similarity = pickle.load(open('similarity.pkl','rb'))
-# url = 'https://drive.google.com/file/d/1QA_xcgNRBt60HBJSzeLOPR3zJMsXucyT/view?usp=sharing'
-# response = requests.get(url)
-# with open('similarity.joblib', 'wb') as f:
-#     f.write(response.content)
-similarity = joblib.load('similarity1.joblib')
-# with open("similarity.txt", 'rb') as f:
-#     similarity = f.readlines()
+similarity = joblib.load('similarity.joblib')
 
 
 st.title('Movie Recommender System')
