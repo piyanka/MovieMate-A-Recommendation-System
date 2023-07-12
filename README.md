@@ -11,3 +11,5 @@ Use
 to run the code:
 You will be prompted to enter your favorite movie.
 The system will generate a list of similar movies based on your input.
+![image](https://github.com/piyanka/MovieMate-A-Recommendation-System/assets/112321667/e7a404e1-236d-4728-af25-ecbb75bc2eb2)
+
