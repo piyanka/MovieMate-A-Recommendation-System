@@ -8,7 +8,7 @@ Following are the features of the machine:
 I welcome you to contribute in the repo and pull the repo for modifications or provide feedback to improve it.
 Use
 #### streamlit run app.py 
-to run the code:
+to run the code: https://moviemate-recommender.streamlit.app/
 You will be prompted to enter your favorite movie.
 
 Access the demo from here: https://moviemate-recommendation-system.streamlit.app/
